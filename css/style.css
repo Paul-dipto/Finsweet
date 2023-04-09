@@ -737,35 +737,45 @@ nav .menu .nav-item a:hover{
     margin-bottom: 48px;
 }
 
-#clients .box .right .slider .slider-text .icons{
-    position: relative;
-}
-
-#clients .box .right .slider .slider-text .icons i{
+#clients .box .right .slider .prev{
     width: 48px;
     height: 48px;
+    border-radius: 50%;
+    color:  #ffff;
+    background-color: #000;
     text-align: center;
     line-height: 48px;
+    position: absolute;
+    bottom: 1px;
+    right: 78px;
+    z-index: 2;
+    transition: .4s;
+}
+
+#clients .box .right .slider .prev:hover{
+    background-color: #5239FA ;
+    color: #ffff;
+}
+
+
+#clients .box .right .slider .next{
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
-    background-color: #fff;
-    color: rgba(40, 41, 56,65%);
-    transition: .6s ease-in-out;
+    color:  #ffff;
+    background-color: #000;
+    text-align: center;
+    line-height: 48px;
+    position: absolute;
+    bottom: 1px;
+    right: 4px;
+    z-index: 2;
+    transition: .4s;
 }
 
-#clients .box .right .slider .slider-text .icons i:hover{
-    background-color: #2405F2;
-    color: #fff;
-}
-
-#clients .box .right .slider .slider-text .icons i#left{
-    position: absolute;
-    top: 0;
-    right: -566px;
-}
-#clients .box .right .slider .slider-text .icons i#right{
-    position: absolute;
-    top: 0;
-    right: -632px;
+#clients .box .right .slider .next:hover{
+    background-color: #5239FA ;
+    color: #ffff;
 }
 
 /*=========clients part end =============*/
